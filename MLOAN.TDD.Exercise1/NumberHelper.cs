@@ -5,6 +5,11 @@ namespace MLOAN.TDD.Exercise1
 {
     public class NumberHelper
     {
+        public int Add(int x, int y)
+        {
+            //throw new NotImplementedException();
+            return x + y;
+        }
         public int[] FindMissing(int[] values)
         {
             //return new int[] { 1,2,3 };
